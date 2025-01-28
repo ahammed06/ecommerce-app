@@ -2,8 +2,10 @@
 
 import { Provider } from 'react-redux';
 import store from '../redux/store';  // Import your store
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './globals.css';
-import Header from './components/header';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 
 export default function Layout({ children }) {
@@ -24,6 +26,7 @@ export default function Layout({ children }) {
         <Provider store={store}>
           {children}
         </Provider>
+        <Footer />
       </body>
     </html>
   );

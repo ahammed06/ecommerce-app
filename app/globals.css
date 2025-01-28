@@ -1,3 +1,64 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+.footer-section {
+  background-color: #393939;
+  padding: 106px 97px;
+}
+
+.footer-item {
+  margin-bottom: 10px;
+}
+
+.footer-item h6 {
+  color: #15ADB7;
+  font-size: 18px;
+  line-height: 17px;
+  font-weight: 400;
+}
+
+.footer-item p {
+  color: #fff;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.footer-item .social-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+}
+
+.footer-item .footer-link {
+  margin-top: 20px;
+}
+.footer-item .footer-link p {
+  margin-bottom: 10px;
+}
+
+.footer-payment-images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  max-width: 400px;
+  margin-left: auto;
+}
+
+.footer-payment-images .payment-image {
+  width: 100px
+}
+
+.footer-bottom p {
+  margin-bottom: 0px;
+}
+.footer-bottom {
+  background: #000;
+  color: #fff;
+  font-size: 18px;
+  line-height: 17px;
+  font-weight: 400;
+  padding: 15px 0;
+}

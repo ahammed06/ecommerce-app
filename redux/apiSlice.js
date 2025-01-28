@@ -4,7 +4,8 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 export const apiSlice = createApi({
   reducerPath: 'api', // Name of the reducer for this slice
   baseQuery: fetchBaseQuery({
-    baseUrl: 'https://fakestoreapi.com/', // The base URL for the API
+    // baseUrl: 'https://fakestoreapi.com/', // The base URL for the API
+    baseUrl: 'http://127.0.0.1:8000/api/', // The base URL for the API
   }),
   endpoints: (builder) => ({
     // Define the API endpoints
